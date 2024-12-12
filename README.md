@@ -1,8 +1,5 @@
 # Puffco Customer Behavior Prediction Project
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 ## Introduction
 
 This project aims to identify the best time to send a promotional email to Puffco customers and determine which product to promote next. By combining random forest regression (time prediction) and classification (product recommendation) models, this project showcases a full machine learning pipeline from data creation to inference.
@@ -76,9 +73,4 @@ After training and tuning:
 
 - The best performing models are saved as `.pkl` files (`rf_model.pkl` for timing, `product_model.pkl` for product recommendation, and `label_encoder.pkl` for target encoding).
 - In `sample_predictions.ipynb`, we demonstrate how to load these models, provide a new customer’s data, and generate a prediction. The predictor returns both the recommended time and product, formatted into a human-readable sentence.
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and adapt the code in your own projects.
 
