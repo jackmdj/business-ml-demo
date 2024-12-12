@@ -65,12 +65,12 @@ The entire model training workflow, including baseline model comparisons and ini
 
 ### Hyperparameter Tuning
 
-The regression model (timing model) undergoes hyperparameter tuning using Grid Search (`GridSearchCV`). By testing different configurations of `n_estimators`, `max_depth`, and `min_samples_split`, we find the best performing model.
+The regression model undergoes hyperparameter tuning using Grid Search (`GridSearchCV`). By testing different configurations of `n_estimators`, `max_depth`, and `min_samples_split`, we find the best performing model.
 
 ## Model Testing and Inference
 
 After training and tuning:
 
-- The best performing models are saved as `.pkl` files (`rf_model.pkl` for timing, `product_model.pkl` for product recommendation, and `label_encoder.pkl` for target encoding).
-- In `sample_predictions.ipynb`, we demonstrate how to load these models, provide a new customer’s data, and generate a prediction. The predictor returns both the recommended time and product, formatted into a human-readable sentence.
+- The best performing models are saved as `.pkl` files (`rf_model.pkl` for timing, `product_model.pkl` for product recommendation, and `label_encoder.pkl` for encoding).
+- In `sample_predictions.ipynb`, we demonstrate how to load these models, provide a new customer’s data, and generate a prediction. The predictor returns both the recommended time and product, formatted into a readable sentence.
 
