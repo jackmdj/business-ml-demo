@@ -34,7 +34,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/puffco-promotions-ml.git
-cd puffco-promotions-ml
+cd puffco-ml-demo
 ```
 
 You can install dependencies via:
