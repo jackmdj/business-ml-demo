@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to identify the best time to send a promotional email to Puffco customers and determine which product to promote next. By combining random forest regression (time prediction) and classification (product recommendation) models, this project showcases a full machine learning pipeline from data creation to inference.
+Puffco has solidified itself as the top maker of cannabis consumption devices. However, it has been noted that they struggle with customer retention, with many customers buying once or infrequently. This project aims to identify the best time to send a promotional email to Puffco customers and determine which product to promote next. By combining random forest regression (time prediction) and classification (product recommendation) models, this project showcases a full machine learning pipeline from data creation to inference.
 
 ## Project Overview
 
