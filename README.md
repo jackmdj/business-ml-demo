@@ -7,7 +7,7 @@ This project aims to identify the best time to send a promotional email to Puffc
 ## Project Overview
 
 1. **Data Generation**: Create and simulate synthetic customer behavior data, including purchase frequency, average/lowest times between orders, and product ownership.
-2. **Data Cleaning & Augmentation**: Preprocess and enrich the dataset, ensuring missing values are handled and categorical targets are encoded.
+2. **Data Cleaning & Augmentation**: Preprocess the dataset, ensuring missing values are handled and categorical targets are encoded.
 3. **Model Selection**: Train baseline and advanced models for timing (regression) and product prediction (classification).
 4. **Model Tuning**: Use Grid Search to fine-tune hyperparameters of the models for optimal performance.
 5. **Testing & Inference**: Validate models on test data and demonstrate inference on new customers.
