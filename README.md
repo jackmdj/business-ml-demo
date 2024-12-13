@@ -14,7 +14,7 @@ This project aims to identify the best time to send a promotional email to Puffc
 
 ## Project Structure
 
-- **`synthetic_data.csv`**: A synthetic dataset generated for this project.
+- **`synthetic_data.csv`**: A dataset generated for this project.
 - **`train_models.ipynb`**: Jupyter notebook detailing data exploration, cleaning, training, and tuning of the models.
 - **`sample_predictions.ipynb`**: Jupyter notebook that demonstrates how to load the trained models and make predictions on new customer data.
 - **`rf_model.pkl`**, **`product_model.pkl`**, **`label_encoder.pkl`**: Saved trained models and encoders.
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## Data Generation and Preparation
 
-### Synthetic Data Creation
+### Data Creation
 
 In this project, data is synthetically generated using an LLM to simulate Puffco customers’ buying patterns. This includes one-time purchasers, repeat buyers, and customers owning multiple products (peak, knife, pivot).
 
