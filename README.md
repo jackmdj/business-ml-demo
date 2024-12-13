@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### Data Creation
 
-In this project, data is synthetically generated using an LLM to simulate Puffco customers’ buying patterns. This includes one-time purchasers, repeat buyers, and customers owning multiple products (peak, knife, pivot).
+In this project, data is synthetically generated using an LLM to simulate Puffco customers’ buying patterns. This includes Customer_ID, Name, Order_Frequency, Average_Time_Between_Orders, Lowest_Time_Between_Orders, has_peak, has_knife, has_pivot.
 
 I used Excel to briefly clean the data before loading it into Python for further analysis.
 
@@ -60,6 +60,10 @@ All these steps ensure a consistent dataset for model training.
 
 - **Regression (Timing Model)**: A `RandomForestRegressor` is trained to predict the best time (in days) to send out a promotional email.
 - **Classification (Product Model)**: A `RandomForestClassifier` is trained to recommend the next product to advertise, using features that indicate which products the customer already owns.
+
+In training the regression model, the target variable is `Lowest_Time_Between_Orders` because we want to predict the minimum amount of time it will take for a customer to buy again. The features are `Order_Frequency` and `Average_Time_Between_Orders`.
+
+For the classification model, the target variable is `Next_Product`, a created column with one of three values: `pivot`, `knife`, and `peak`. The features are the binary variables `has_peak`, `has_knife`, and `has_pivot`.
 
 The entire model training workflow, including baseline model comparisons and initial fits, is documented in `train_models.ipynb`.
 
