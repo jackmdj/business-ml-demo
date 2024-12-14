@@ -51,7 +51,7 @@ In this project, data is synthetically generated using an LLM to simulate Puffco
 
 I used Excel to briefly clean the data before loading it into Python for further analysis.
 
-Missing values are handled, non-numeric values (`"N/A"`) are replaced with `NaN`, and columns are coerced into numeric types. The dataset is augmented with additional columns (e.g., `Next_Product`) based on product ownership rules.  
+Missing values are handled, non-numeric values (`"N/A"`) are replaced with `NaN`, and columns are coerced into numeric types. The dataset is augmented with additional columns (e.g., `Next_Product`).  
 
 We fill in values for `Next_Product` to simulate customer behavior using a logical function, based on which products they own. In a real world scenerio, I would use historical data to train the model, identifying the most common products and accessories purchased in succession.
 
