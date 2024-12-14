@@ -78,3 +78,7 @@ After training and tuning:
 - The best performing models are saved as `.pkl` files (`rf_model.pkl` for timing, `product_model.pkl` for product recommendation, and `label_encoder.pkl` for encoding).
 - In `sample_predictions.ipynb`, we demonstrate how to load these models, provide a new customer’s data, and generate a prediction. The predictor returns both the recommended time and product, formatted into a readable sentence.
 
+## Conclusion
+
+This project demonstrates a complete end-to-end workflow for identifying the optimal timing for promotional emails and recommending the next product to market, using entirely synthetic data. The resulting models show encouraging performance under these controlled conditions. However, the limitations of the synthetic dataset mean that these findings are primarily illustrative. If integrated into a real-world setting—fed by authentic customer purchase histories and refined with domain knowledge—these models could become more accurate, reliable, and ultimately more valuable for business decision-making.
+
