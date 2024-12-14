@@ -81,5 +81,5 @@ After training and tuning:
 
 ## Conclusion
 
-This project demonstrates a complete workflow for identifying the optimal timing for promotional emails and recommending the next product to market, using entirely synthetic data. The resulting models show encouraging performance under these controlled conditions. However, the limitations of the dataset mean that these findings are primarily illustrative. If integrated into a real-world setting with authentic customer purchase histories and refined with domain knowledge, these models could become more accurate, reliable, and ultimately more valuable for business decision-making.
+This project demonstrates a complete workflow for identifying the optimal timing for promotional emails and recommending the next product to market, using entirely synthetic data. The resulting models show encouraging performance under these controlled conditions. However, the limitations of the dataset mean that these findings are primarily illustrative. If integrated into a real-world setting with authentic customer purchase histories and refined with domain knowledge, these models could become more accurate, reliable, and ultimately more valuable for business decision-making. In addition, more complex data and powerful models like XGBoost would likely capture the nuances of customer behavior more effectively. 
 
