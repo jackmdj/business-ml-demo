@@ -1,8 +1,8 @@
-# Puffco Customer Behavior Prediction Project
+# Customer Behavior Prediction Project
 
 ## Introduction
 
-Puffco has solidified itself as the top maker of cannabis consumption devices. However, it has been noted that they struggle with customer retention, with many customers buying once or infrequently. This project aims to identify the best time to send a promotional email to Puffco customers and determine which product to promote next. By combining random forest regression (time prediction) and classification (product recommendation) models, this project showcases a full machine learning pipeline from data creation to inference.
+Imagine a company that has solidified itself as the top maker of devices in their industry. However, it has been noted that they struggle with customer retention, with many customers buying once or infrequently. This project aims to identify the best time to send a promotional email to customers and determine which product to promote next. By combining random forest regression (time prediction) and classification (product recommendation) models, this project showcases a full machine learning pipeline from data creation to inference.
 
 ## Project Overview
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### Data Creation
 
-In this project, data is synthetically generated using an LLM to simulate Puffco customers’ buying patterns. This includes Customer_ID, Name, Order_Frequency, Average_Time_Between_Orders, Lowest_Time_Between_Orders, has_peak, has_knife, has_pivot.
+In this project, data is synthetically generated using an LLM to simulate customers’ buying patterns. This includes Customer_ID, Name, Order_Frequency, Average_Time_Between_Orders, Lowest_Time_Between_Orders, has_peak, has_knife, has_pivot.
 
 I used Excel to briefly clean the data before loading it into Python for further analysis.
 
